@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gift-registration-searchby-country-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/giftRegistrationSearchbyCountry/GiftRegistrationSearchbyCountryWebPart.js",
+          "manifest": "./src/webparts/giftRegistrationSearchbyCountry/GiftRegistrationSearchbyCountryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GiftRegistrationSearchbyCountryWebPartStrings": "lib/webparts/giftRegistrationSearchbyCountry/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

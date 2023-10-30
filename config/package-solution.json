@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gift-registration-searchby-country-client-side-solution",
+    "id": "b66c445a-8a10-460d-aacb-1563029cc127",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GiftRegistration_SearchbyCountry description"
+      },
+      "longDescription": {
+        "default": "GiftRegistration_SearchbyCountry description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gift-registration-searchby-country Feature",
+        "description": "The feature that activates elements of the gift-registration-searchby-country solution.",
+        "id": "2f2f5337-0f6d-4934-8f01-8de831829785",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gift-registration-searchby-country.sppkg"
+  }
+}

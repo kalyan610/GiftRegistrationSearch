@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "gift-registration-searchby-country",
+    "libraryId": "b66c445a-8a10-460d-aacb-1563029cc127",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "GiftRegistration_SearchbyCountry",
+    "solutionShortDescription": "GiftRegistration_SearchbyCountry description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
